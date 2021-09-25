@@ -18,19 +18,15 @@ sh 'this is 1st stage pipleline '
 sh 'ls-lrt'
 }
 }
-
 }
-
+}
+stage('TEST'){
 steps {
-sh "welcome back mahesh"
-}
-}
-stage('SAME'){
-steps {
-echo "your welcome"
+echo "this is testing zone"
 }
 
 }
 }
+
 }
 
