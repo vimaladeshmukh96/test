@@ -1,0 +1,16 @@
+pipeline{
+agent any
+stages {
+stage ('BUILD'){
+steps {
+sh 'welcome to build '
+}
+}
+stage ('TEST'){
+steps {
+sh 'welcome to test '
+}
+}
+
+}
+}
